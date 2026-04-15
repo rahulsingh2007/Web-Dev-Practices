@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90vw;
+    height: 90vh;
+    background-color: blanchedalmond;
+    position: relative;
+}
+
+.box {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    animation: animateX 4s linear infinite, animateY 1s ease-out infinite alternate;
+}
+
+@keyframes animateX {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes animateY {
+    form {
+        bottom: 0;
+    }
+
+    to {
+        bottom: 100%;
+    }
+}

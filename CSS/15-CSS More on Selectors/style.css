@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .box:first-child{
+    background-color: red;
+} */
+
+/* .box::first-line {
+    background-color: yellow;
+} */
+
+/* .boxes * {
+    color: blue;
+    border: 5px solid green;
+} */
+
+/* [data-color="primary"] {
+    padding: 10px;
+} */
+
+/* .box:nth-child(even){
+    background-color: blue;
+    color: white;
+} */
+
+/* .box:nth-last-child(2){
+    background-color: blue;
+} */
+
+/* .boxes::after{
+    content: "Harry is good";
+} */
+
+/* ::selection{
+    color: blue;
+} */
+
+/* .box::first-letter{
+    background-color: purple;
+} */
+
+/* input::placeholder{
+    font-size: 10px;
+    color: green;
+} */

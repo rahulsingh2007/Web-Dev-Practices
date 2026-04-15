@@ -1,0 +1,15 @@
+.img1{
+    width: 100px;
+    height: 100px;
+    /* filter: brightness(200%); */
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    /* filter: sepia(100%); */
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    /* filter: grayscale(100%); */
+}

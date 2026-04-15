@@ -1,0 +1,13 @@
+.cards{
+    border: 5px solid black;
+    display: flow-root;
+}
+img{
+    float: left;
+}
+.card{
+    border: 2px solid red;
+}
+.card:nth-child(3){
+    clear: both;
+}

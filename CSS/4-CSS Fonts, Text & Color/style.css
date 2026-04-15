@@ -1,0 +1,12 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    text-decoration: underline;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    text-indent: 45px;
+}

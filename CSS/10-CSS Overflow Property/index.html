@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Overflow Property</title>
+    <style>
+        .box {
+            width: 30vw;
+            height: 30vh;
+            border: 2px solid black;
+            /* overflow: scroll; shows scroll bar*/
+            /* overflow: auto; if it's overflowing then show the scroll bar otherwise leave as it is  */
+            /* white-space: nowrap; it means horizontal scroll the lines will not come in another only one line scroll  */
+            /* text-overflow: ellipsis; it shows (....) after the end  */
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        I am a good boy. Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus aspernatur ratione
+        perspiciatis, amet odio eveniet quisquam esse, quo, temporibus dolorem incidunt architecto assumenda
+        necessitatibus similique corporis consequuntur? Ut quo consectetur, culpa harum illo placeat consequuntur sed,
+        assumenda laudantium eos, iusto sequi nesciunt neque. Excepturi, quae! Lorem ipsum dolor sit amet consectetur,
+        adipisicing elit. Dolor repellendus consectetur quae ratione reiciendis at commodi provident libero quos
+        laborum.
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+.container {
+    height: 488px;
+    width: 466px;
+    border: 2px solid black;
+    background-image: url(tree.jpg);
+    background-position: center center;
+    /*If the image is small then the image will repeated in the empty box backgroung-repeat: none or left etc*/
+    
+}
+
+/* img{
+    width: 466px;
+    height: 488px;
+    /* object-fit: cover; */
+/* object-fit: contain; */
+/* object-position: bottom left; */

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Specificity</title>
+    <style>
+        /* The specifiicty of element selector and pseudo-elements will be 1 */
+        h1 {
+            color: aqua;
+        }
+
+        /* The specifiicty of element selector and pseudo-elements will be 1 + 10 */
+        h1.yellow {
+            color: yellow;
+        }
+
+        /* The specifiicty of element selector and pseudo-elements will be 10 */
+        .cred {
+            color: red;
+        }
+
+        .cpurple {
+            color: mediumseagreen;
+        }
+
+        /*Quick Quiz Answer=1+10+10+10+10 [href]is attribute selector,hover is pseudo class
+        a.harryclass.rohan-class[href]:hover{
+            color: blueviolet;
+        }*/
+    </style>
+</head>
+<!-- The specifiicty of universal selector will be 0   -->
+<!-- The specifiicty of element selector and pseudo-elements will be 1   -->
+<!-- The specifiicty class selector, attribute selectors and pseudo-classses will be 10   -->
+<!-- The specifiicty of id selector will be 100   -->
+<!-- The specifiicty of inline styles will be 1000   -->
+
+<!-- This is an example of attribute selector 
+     [data-x=a]{
+      background-color: red;
+      } -->
+
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" </h1>CSS Specificity</h1>
+    </div>
+</body>
+
+</html>

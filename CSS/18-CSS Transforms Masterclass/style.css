@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 60vw;
+    height: 60vh;
+    border: 3px solid blue;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(40deg); */
+    /* transform: rotate(0.20turn);  1 means 180 deg turn and 0.5 is 90 deg turn*/
+    /* transform: rotateX(40deg); */
+    /* transform: rotateY(40deg); */
+    /* transform: rotateZ(40deg); */
+    /* transform: scale(1.6); */
+    /* transform: scale3d(1.6) */
+    /* transform: scaleX(1.6); */
+    /* transform: scaleY(1.6); */
+    /* transform: scaleZ(1.6); */
+    /* transform: skew(5deg); */
+    /* transform: skewX(5deg); */
+    /* transform: skewY(5deg); */
+    /* transform: translate(34px); shifts by 34 px  */
+    /* transform: translate(50%); shifts by half of the width  */
+    /* transform: translateY(50%) skew(40deg); */
+    /* transform-origin: 5% 5%; */
+    
+}

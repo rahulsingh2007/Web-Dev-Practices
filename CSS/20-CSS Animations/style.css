@@ -1,0 +1,53 @@
+.container {
+    background-color: rgb(255, 153, 0);
+    height: 80vh;
+    width: 30vw;
+}
+
+.box {
+    width: 34px;
+    height: 45px;
+    /* background-color: blue; */
+    /* animation-name: rahulanimation;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(1, 0.05, 0, 0.99);
+    animation-delay: 1s; */
+    /* animation-direction: reverse; */
+    /* animation-play-state: paused; */
+    animation: rahulanimation 3s ease-in-out 1s 100,
+    rahul2 3s ease-in-out 1s 100;
+}
+
+@keyframes rahulanimation {
+    from {
+        background-color: red;
+        transform: translateX(10px);
+    }
+
+    to {
+        background-color: yellow;
+        transform: translateX(900px);
+    }
+    
+}
+@keyframes rahul2{
+    0%{
+        transform: rotateX(50deg);
+    }
+    20%{
+        transform: rotateX(100deg);
+    }
+    40%{
+        transform: rotateX(200deg);
+    }
+    60%{
+        transform: rotateX(300deg);
+    }
+    80%{
+        transform: rotateX(400deg);
+    }
+    100%{
+        transform: rotateX(500deg);
+    }
+}
